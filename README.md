@@ -1,10 +1,10 @@
 
 
-This is a program that does some analysis of a database. 
+This is a program that does some analysis of a postgreSQL database. 
 
 
 
-#Setup 
+# Setup 
 
 Connect to the 'news' database with `psql -d news` . 
 
@@ -37,6 +37,6 @@ create view errors as
 	from log group by time::date;
 ```
 
-#Execution 
+# Execution 
 
 Run dbproj.py using python3
